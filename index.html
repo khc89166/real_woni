@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- jQuery lib -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- progressbar.js -->
+    <script src="js/progressbar.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!-- header 영역 -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="#" class="logo-img">
+                <img src="image/해1.png" alt="" class="normal" data-static="image/해1.png" data-animated="image/해.png">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">ABOUT ME</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- main영역 -->
+<main>
+    <section class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>ABOUT ME</h2>
+            </div>
+            <div class="about-contents">                
+                <img class="profile-img" src="image/루피.jpg" alt="">
+                <div class="profile">
+                    <div class="text">
+                        <p><strong> 이름 : 김혜원</strong></p>
+                        <p><strong> 생년월일 : 1999.04.28</strong></p>
+                        <p><strong>이메일 : real_woni@naver.com</strong></p>
+                        <p><strong>수료내역 : 2023.02 - 2023.06 대구 그린컴퓨터아트학원</strong></p> 
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;디지털 영상편집 (프리미어, 애프터이펙트, 시네마4D) 양성A 수료</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+    <div class="section-title">
+        <h2>SKILLS</h2>
+    </div>
+        <div class="skill-contents">
+            <div class="progress-area">
+                <div class="progress" id="ae">
+                    <p>After Effects</p>
+                </div>
+                <div class="progress" id="pr">
+                    <p>Premiere</p>
+                </div>
+                <div class="progress" id="cinema4d">
+                    <p>Cinema 4D</p>
+                </div>
+                <div class="progress" id="ps">
+                    <p>Photoshop</p>
+                </div>
+                <div class="progress" id="ai">
+                    <p>Illustrator</p>                
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>       
+    <section class="portfolio" id="Portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>PORTFOLIO</h2>
+            </div>
+            <div class="tab-menu">
+                <ul>
+                  <li class="active"><a href="#tab1">타이포 그래피</a></li>
+                  <li><a href="#tab2">Car Animation</a></li>
+                  <li><a href="#tab3">
+                    Character Animation</a></li>
+                  <li><a href="#tab4">Moving Poster</a></li>
+                </ul>
+              </div>
+              <div class="tab-content">
+                <div id="tab1" class="tab-item active">
+                  <!-- Content for Tab 1 goes here --> 
+                  <div class="content-box">
+                      <div class="info-txt">
+                        <p class="title-text">
+                           <strong>pH-1 - You Don't Know My Name (Prod. Mokyo)</strong> 
+                        </p>
+                        <p>
+                            <span>제작 기간 :</span>
+                            
+                        </p>
+                        <p>
+                            <span>사용 프로그램 :</span>
+                            Adobe After Effects
+                        </p>
+                        <p>
+                            <span>설명 :</span>
+                            
+                        </p>
+                      </div>
+                      <div class="info-video">
+                        <a href="#">
+                            <img src="image/타이포.gif" alt="">
+                        </a>
+                      </div>
+                  </div>
+                </div>
+                <div id="tab2" class="tab-item">
+                  <!-- Content for Tab 2 goes here -->
+                  <div class="content-box">
+                      <div class="info-txt">
+                        <p class="title-text">
+                           <strong>Car Animation</strong>
+                        </p>
+                        <p>
+                            <span>제작 기간 :</span>
+                            7일
+                        </p>
+                        <p>
+                            <span>사용 프로그램 :</span>
+                            Adobe After Effects
+                        </p>
+                        <p>
+                            <span>설명 :</span>
+                            패스로 자동차를 그려 익스프레션을 활용해 자동차가 움직이는것을 표현하였습니다.
+                        </p>
+                      </div>
+                      <div class="info-video">
+                        <a href="#">
+                            <img src="image/자동차애니메이션.gif" alt="">
+                        </a>
+                      </div>
+                  </div>
+                </div>
+                <div id="tab3" class="tab-item">
+                  <!-- Content for Tab 3 goes here -->
+                  <div class="content-box">
+                    <div class="info-txt">
+                      <p class="title-text">
+                         <strong>Character Animation</strong> 
+                      </p>
+                      <p>
+                          <span>제작 기간 :</span>
+                          7일
+                      </p>
+                      <p>
+                          <span>사용 프로그램 :</span>
+                          Adobe After Effects, Adobe Premiere Pro
+                      </p>
+                      <p>
+                          <span>설명 :</span>
+                          익스프레션을 활용해 반응형 캐릭터 애니메이션을 만들었습니다. 
+                      </p>
+                    </div>
+                    <div class="info-video">
+                      <a href="#">
+                          <img src="image/캐릭터애니메이션.gif" alt="">
+                      </a>
+                    </div>
+                </div>
+                </div>
+                <div id="tab4" class="tab-item">
+                  <!-- Content for Tab 4 goes here -->
+                  <div class="content-box">
+                    <div class="info-txt">
+                      <p class="title-text">
+                         <strong>Moving poster</strong>
+                      </p>
+                      <p>
+                          <span>제작 기간 :</span>
+                          7일
+                      </p>
+                      <p>
+                          <span>사용 프로그램 :</span>
+                          Adobe Photoshop, Adobe After Effects
+                      </p>
+                      <p>
+                          <span>설명 :</span>
+                          
+                      </p>
+                    </div>
+                    <div class="info-video">
+                      <a href="#">
+                          <img src="" alt="">
+                      </a>
+                    </div>
+                </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>CONTACT</h2>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
